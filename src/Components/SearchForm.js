@@ -5,7 +5,7 @@ const SearchForm = props => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    props.changeGifQuery(searchText);
+    props.changeGifQuery(searchText.current.value);
     e.currentTarget.reset();
   }
 
@@ -15,7 +15,7 @@ const SearchForm = props => {
         Search
       </label>
       <input type="search"
-        onChange={e => setSearchText(e.target.value)}
+        ref={searchText}
         name="search"
         placeholder="Search..." />
       <button type="submit" id="submit" className="search-button">
