@@ -1,4 +1,5 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
+import "../scss/searchForm.scss"
 
 const SearchForm = props => {
   const searchText = useRef(null);
@@ -17,6 +18,7 @@ const SearchForm = props => {
       <input type="search"
         ref={searchText}
         name="search"
+        className='search-input'
         placeholder="Search..." />
       <button type="submit" id="submit" className="search-button">
         <i className="material-icons icn-search">

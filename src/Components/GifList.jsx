@@ -10,6 +10,8 @@ if (data.length > 0 ){
     <Gif 
       url={gif.images.fixed_height.url} 
       key={`${gif.id}-${index}`}
+      title={gif.title}
+      hrefUrl={gif.images.original.url}
     />
   ))
 } else {

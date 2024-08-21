@@ -1,0 +1,56 @@
+/* ================================= 
+  Page Components
+==================================== */
+
+.main-title {
+  font-size: 1.4em;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.search-form input:only-of-type {
+  width: 100%;
+  margin-right: -40px;
+  padding-right: 35px;
+}
+
+.search-button {
+  float: right;
+  margin-right: -10px;
+}
+
+.icn-search {
+  font-weight: 700;
+}
+
+.icon-gif {
+  font-size: 6em;
+  margin-bottom: 0;
+  color: #7bcbc4;
+  display: block;
+}
+
+.no-gifs  {
+  color: #7bcbc4;
+  height: 140px;
+  padding-top: 62px;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.gif-list a {
+  display: block;
+  margin: auto;
+}
+
+.gif-wrap {
+  background-color: #fff;
+  margin-bottom: .8em;
+  position: relative;
+}
+
+.gif-wrap img {
+  min-width: 100%;
+}
